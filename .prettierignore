@@ -1,0 +1,8 @@
+build
+coverage
+node_modules
+.husky
+.vscode
+.gitignore
+package.json
+dist

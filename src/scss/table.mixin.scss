@@ -1,0 +1,12 @@
+@mixin table-action($image) {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    background-color: blue;
+    background: url($image) no-repeat center;
+    cursor: pointer;
+
+    &::before {
+        content: "\200D";
+    }
+}

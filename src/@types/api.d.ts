@@ -1,0 +1,3 @@
+interface DeleteRequest {
+	isDeleted: boolean
+}

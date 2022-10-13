@@ -1,0 +1,18 @@
+.brokenLink {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+    span {
+        background: url('../assets/broken.svg') no-repeat center;
+        width: 12.5rem;
+        height: 12.5rem;
+        transition: 3s cubic-bezier(.06, 1.4, .83, .67);
+
+        &:hover {
+            transform: rotate(15deg);
+        }
+    }
+}

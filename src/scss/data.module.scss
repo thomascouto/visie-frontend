@@ -1,0 +1,28 @@
+@import './table.mixin.scss';
+
+.dataContent {
+    display: flex;
+    margin: 5rem 1rem 1rem 1rem;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    h2 {
+        align-self: center;
+    }
+
+    img {
+        max-width: 40rem;
+        height: auto;
+        border-radius: 2rem;
+        margin: 0 auto;
+    }
+
+    .rating {
+        align-self: center;
+    }
+}
+
+.toolbarData {
+    display: flex;
+    gap: 1rem;
+}

@@ -1,0 +1,18 @@
+@import './colors.scss';
+@import './table.mixin.scss';
+
+.actionButtons {
+    display: flex;
+
+    .data {
+        @include table-action('../assets/data.svg');
+    }
+
+    .delete {
+        @include table-action('../assets/delete.svg');
+    }
+
+    .edit {
+        @include table-action('../assets/edit.svg');
+    }
+}
